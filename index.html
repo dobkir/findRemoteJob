@@ -16,16 +16,25 @@
 <body class="m-0 p-0">
   <header class="header pb-5">
     <div class="container">
-      <div class="row align-items-center py-3">
-        <div class="col-2">
-          <a href="#" class="logo-link">
-            <img src="img/logo.svg" alt="logo: find your job">
-          </a>
-        </div>
+      <div class="d-flex pt-4 d-lg-none align-items-center justify-content-between">
+        <a href="/" class="logo-link">
+          <img src="img/logo.svg" alt="logo: find your job">
+        </a>
+        <a href="#" class="menu-button">
+          <img src="img/menu-burger.svg" alt="icon: burger menu">
+        </a>
+      </div>
+      <div class="d-flex align-items-center py-3 navbar flex-column flex-lg-row justify-content-center">
+        <a href="#" class="close-button d-lg-none">&times;</a>
+
+        <a href="/" class="logo-link mb-5 d-flex justify-content-center">
+          <img src="img/logo.svg" alt="logo: find your job">
+        </a>
+
         <!-- /.col -->
-        <div class="col d-flex justify-content-center">
+        <div class="col-lg d-flex justify-content-center mb-5 mb-lg-0">
           <nav class="nav">
-            <ul class="menu d-flex">
+            <ul class="menu d-flex flex-column flex-lg-row justify-content-center">
               <li class="menu-item"><a href="#" class="menu-link">Home</a></li>
               <li class="menu-item"><a href="#" class="menu-link">Jobs</a></li>
               <li class="menu-item"><a href="#" class="menu-link">Companes</a></li>
@@ -33,15 +42,16 @@
           </nav>
         </div>
         <!-- /.col -->
-        <div class="col-3 d-flex align-items-center justify-content-end">
+        <div class="col-lg-3 d-flex align-items-center justify-content-center 
+        justify-content-lg-end flex-column flex-lg-row">
           <a href="#" class="button button-link">Sign In</a>
           <a href="#" class="button button-primary">Sign Up</a>
         </div>
         <!-- /.col -->
       </div>
       <!-- /.row -->
-      <div class="row pt-5">
-        <div class="col-5">
+      <div class="row pt-5 hero">
+        <div class="col-xxl-5 col-lg-7 col-md-9">
           <h1 class="hero-title">Find the remote job of your dreams</h1>
           <p class="hero-text">
             Create a resume or apply for a vacancy in a world-renowned company and work on a free schedule
@@ -51,7 +61,7 @@
               <input type="text" class="input" placeholder="Search jobs, companies, or tags">
               <button class="button button-primary">
                 <img class="button-icon" src="img/search-icon.svg" alt="icon: search">
-                <span class="button-text">Find remote jobs</span>
+                <span class="button-text d-none d-md-inline-block">Find remote jobs</span>
               </button>
             </div>
             <!-- /.input-group -->
@@ -66,7 +76,7 @@
           <!-- /.tags-group -->
         </div>
         <!-- /.col-5 -->
-        <div class="col-6 offset-1">
+        <div class="col-xxl-6 offset-xxl-1 col-lg-5 mt-5 mt-lg-0">
           <img src="img/hero-image.svg" alt="image: people looking for remote job on our site " class="hero-image">
         </div>
         <!-- /.col6 offset-1 -->
@@ -81,7 +91,7 @@
     <div class="container">
       <h2 class="section-title">Categories</h2>
       <div class="row">
-        <div class="col-12 col-sm-4 col-md-6 col-lg-2">
+        <div class="col-lg-2 col-md-4 col-sm-6 mb-4 mb-lg-0">
           <a href="#" class="card d-flex flex-column align-items-center">
             <svg height="24" width="24" class="card-icon">
               <use xlink:href="img/icons.svg#brush"></use>
@@ -92,7 +102,7 @@
           <!-- /.card -->
         </div>
         <!-- /.col -->
-        <div class="col-12 col-sm-4 col-md-6 col-lg-2">
+        <div class="col-lg-2 col-md-4 col-sm-6 mb-4 mb-lg-0">
           <a href="#" class="card d-flex flex-column align-items-center">
             <svg height="24" width="24" class="card-icon">
               <use xlink:href="img/icons.svg#browser"></use>
@@ -103,7 +113,7 @@
           <!-- /.card -->
         </div>
         <!-- /.col -->
-        <div class="col-12 col-sm-4 col-md-6 col-lg-2">
+        <div class="col-lg-2 col-md-4 col-sm-6 mb-4 mb-lg-0">
           <a href="#" class="card d-flex flex-column align-items-center">
             <svg height="24" width="24" class="card-icon">
               <use xlink:href="img/icons.svg#edit"></use>
@@ -114,7 +124,7 @@
           <!-- /.card -->
         </div>
         <!-- /.col -->
-        <div class="col-12 col-sm-4 col-md-6 col-lg-2">
+        <div class="col-lg-2 col-md-4 col-sm-6 mb-4 mb-lg-0">
           <a href="#" class="card d-flex flex-column align-items-center">
             <svg height="24" width="24" class="card-icon">
               <use xlink:href="img/icons.svg#fingerprint"></use>
@@ -125,7 +135,7 @@
           <!-- /.card -->
         </div>
         <!-- /.col -->
-        <div class="col-12 col-sm-4 col-md-6 col-lg-2">
+        <div class="col-lg-2 col-md-4 col-sm-6 mb-4 mb-lg-0">
           <a href="#" class="card d-flex flex-column align-items-center">
             <svg height="24" width="24" class="card-icon">
               <use xlink:href="img/icons.svg#camera"></use>
@@ -136,7 +146,7 @@
           <!-- /.card -->
         </div>
         <!-- /.col -->
-        <div class="col-12 col-sm-4 col-md-6 col-lg-2">
+        <div class="col-lg-2 col-md-4 col-sm-6 mb-4 mb-lg-0">
           <a href="#" class="card d-flex flex-column align-items-center">
             <svg height="24" width="24" class="card-icon">
               <use xlink:href="img/icons.svg#school"></use>
@@ -157,14 +167,14 @@
   <section class="section offers">
     <div class="container">
       <h2 class="section-title">Hot jobs</h2>
-      <div class="offer d-flex align-items-center">
-        <div class="offer-image"></div>
-        <div class="offer-title col-3">
+      <div class="offer d-flex align-items-center flex-column flex-lg-row">
+        <div class="offer-image mb-4 mb-lg-0"></div>
+        <div class="offer-title col-3 mb-4 mb-lg-0">
           <h3 class="offer-heading">UX Designer, AI</h3>
           <span class="offer-place">San Francisco Bay Area, CA</span>
         </div>
         <!-- /.offer-title -->
-        <span class="offer-salary">$250,000</span>
+        <span class="offer-salary mb-4 mb-lg-0">$250,000</span>
         <div class="tags-group">
           <span class="tags-label">Qualifications:</span>
           <a href="#" class="tag">design</a>
@@ -173,17 +183,17 @@
           <a href="#" class="tag">Sketch</a>
         </div>
         <!-- /.tags-group -->
-        <a href="#" class="more">Read more →</a>
+        <a href="#" class="more mt-5 mt-lg-0">Read more&nbsp→</a>
       </div>
       <!-- /.offer -->
-      <div class="offer d-flex align-items-center">
-        <div class="offer-image"></div>
-        <div class="offer-title col-3">
+      <div class="offer d-flex align-items-center flex-column flex-lg-row">
+        <div class="offer-image mb-4 mb-lg-0"></div>
+        <div class="offer-title col-3 mb-4 mb-lg-0">
           <h3 class="offer-heading">Design Technologist - Honeycode</h3>
           <span class="offer-place">San Francisco Bay Area, CA</span>
         </div>
         <!-- /.offer-title -->
-        <span class="offer-salary">$250,000</span>
+        <span class="offer-salary mb-4 mb-lg-0">$250,000</span>
         <div class="tags-group">
           <span class="tags-label">Qualifications:</span>
           <a href="#" class="tag">front-end</a>
@@ -192,17 +202,17 @@
           <a href="#" class="tag">XML/JSON</a>
         </div>
         <!-- /.tags-group -->
-        <a href="#" class="more">Read more →</a>
+        <a href="#" class="more mt-5 mt-lg-0">Read more&nbsp→</a>
       </div>
       <!-- /.offer -->
-      <div class="offer d-flex align-items-center">
-        <div class="offer-image"></div>
-        <div class="offer-title col-3">
+      <div class="offer d-flex align-items-center flex-column flex-lg-row">
+        <div class="offer-image mb-4 mb-lg-0"></div>
+        <div class="offer-title col-3 mb-4 mb-lg-0">
           <h3 class="offer-heading">Principal UX Designer - AI Platforms</h3>
           <span class="offer-place">San Francisco Bay Area, CA</span>
         </div>
         <!-- /.offer-title -->
-        <span class="offer-salary">$250,000</span>
+        <span class="offer-salary mb-4 mb-lg-0">$250,000</span>
         <div class="tags-group">
           <span class="tags-label">Qualifications:</span>
           <a href="#" class="tag">design</a>
@@ -211,17 +221,17 @@
           <a href="#" class="tag">Figma</a>
         </div>
         <!-- /.tags-group -->
-        <a href="#" class="more">Read more →</a>
+        <a href="#" class="more mt-5 mt-lg-0">Read more&nbsp→</a>
       </div>
       <!-- /.offer -->
-      <div class="offer d-flex align-items-center">
-        <div class="offer-image"></div>
-        <div class="offer-title col-3">
+      <div class="offer d-flex align-items-center flex-column flex-lg-row">
+        <div class="offer-image mb-4 mb-lg-0"></div>
+        <div class="offer-title col-3 mb-4 mb-lg-0">
           <h3 class="offer-heading">Sr. Design Technologist, Envision Engineering</h3>
           <span class="offer-place">San Francisco Bay Area, CA</span>
         </div>
         <!-- /.offer-title -->
-        <span class="offer-salary">$122,300</span>
+        <span class="offer-salary mb-4 mb-lg-0">$122,300</span>
         <div class="tags-group">
           <span class="tags-label">Qualifications:</span>
           <a href="#" class="tag">UX</a>
@@ -229,9 +239,12 @@
           <a href="#" class="tag">design</a>
         </div>
         <!-- /.tags-group -->
-        <a href="#" class="more">Read more →</a>
+        <a href="#" class="more mt-5 mt-lg-0">Read more&nbsp→</a>
       </div>
       <!-- /.offer -->
+      <div class="d-flex align-items-center justify-content-center">
+        <button class="button button-primary">More jobs</button>
+      </div>
     </div>
     <!-- /.container -->
   </section>
@@ -239,14 +252,14 @@
 
   <section class="section subscribe">
     <div class="container">
-      <form action="POST" class="subscribe-form">
+      <form action="#" class="subscribe-form">
         <h2 class="subscribe-title">Subscribe to get new job lists weekly</h2>
         <p class="subscribe-subtitle">We send you one mail per week with jobs that suit you.</p>
         <div class="input-group d-flex">
           <input type="text" class="input" placeholder="your@youremail.here">
           <button class="button button-primary">
             <img class="button-icon" src="img/envelope.svg" alt="icon: envelope">
-            <span class="button-text">Subscribe</span>
+            <span class="button-text d-none d-md-inline-block">Subscribe</span>
           </button>
         </div>
         <!-- /.input-group -->
@@ -260,13 +273,13 @@
   <footer class="footer">
     <div class="container">
       <div class="row">
-        <div class="col-3">
+        <div class="col-lg-3 col-sm-6 mb-5 mb-lg-0 col-7 mx-auto">
           <img src="img/logo.svg" alt="logo: find your job">
           <p class="footer-description">Website for finding remote work</p>
           <span class="footer-copyright">© 2021</span>
         </div>
         <!-- /.col-3 -->
-        <div class="col-3">
+        <div class="col-lg-3 col-sm-6 mb-5 mb-lg-0 col-7 mx-auto">
           <h3 class="footer-title">Contact</h3>
           <ul class="footer-list">
             <li class="footer-list-item">
@@ -280,7 +293,7 @@
           </ul>
         </div>
         <!-- /.col-3 -->
-        <div class="col-3">
+        <div class="col-lg-3 col-sm-6 mb-5 mb-lg-0 col-7 mx-auto">
           <h3 class="footer-title">Information</h3>
           <ul class="footer-list">
             <li class="footer-list-item">
@@ -295,7 +308,7 @@
           </ul>
         </div>
         <!-- /.col-3 -->
-        <div class="col-3">
+        <div class="col-lg-3 col-sm-6 mb-5 mb-lg-0 col-7 mx-auto">
           <h3 class="footer-title">Sitemap</h3>
           <ul class="footer-list">
             <li class="footer-list-item">
@@ -316,6 +329,7 @@
     <!-- /.container -->
   </footer>
   <!-- /.footer -->
+  <script src="js/main.js"></script>
 </body>
 
 </html>
