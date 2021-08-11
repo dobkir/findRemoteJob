@@ -1,4 +1,4 @@
-# Remote job search website template :iphone: "FindRemoteJob" :computer:
+# Remote job search website template :iphone:"FindRemoteJob":computer:
 
 [![Contributors][contributors-shield]][contributors-url]&nbsp;
 [![Forks][forks-shield]][forks-url]&nbsp;
@@ -8,9 +8,9 @@
 ![Repository size][repo-size-shield]&nbsp;
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
-### Main page preview
-![Website trailer][product-screenshot-main_page]
 ### Website preview
+![Website trailer][product-screenshot-main_page]
+### Website on mobile devices preview
 ![Website on mobile devices trailer][product-screenshot-mobile_devices]
 
 <!-- WORK DESCRIPTION -->
