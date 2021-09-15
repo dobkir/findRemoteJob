@@ -54,8 +54,8 @@ Distributed under the MIT License. See [LICENSE](LICENSE.txt) for more informati
 
 Project Link: [https://github.com/dobkir/findRemoteJob](https://github.com/dobkir/findRemoteJob)
 
-<!-- ACKNOWLEDGEMENTS -->
-## Acknowledgements
+<!-- ACKNOWLEDGMENTS -->
+## Acknowledgments
 - [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
 - [ICONS8](https://icons8.com/)
 - [Img Shields](https://shields.io)
